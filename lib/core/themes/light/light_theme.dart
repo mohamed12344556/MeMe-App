@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
-import '../core.dart';
+import '../../core.dart';
+
+class LightTheme {
+  static ThemeData get theme => lightTheme;
+}
 
 final ThemeData lightTheme = ThemeData(
   useMaterial3: true,

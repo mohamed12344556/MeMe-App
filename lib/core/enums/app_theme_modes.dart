@@ -1,0 +1,4 @@
+enum AppThemeMode {
+  modern,
+  meme,
+}

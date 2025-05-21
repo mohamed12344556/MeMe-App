@@ -2,7 +2,7 @@
 // export './api/api_service.dart';
 // export './api/dio_factory.dart';
 // Cache
-export './cache/shared_pref_helper.dart';
+export 'services/cache/shared_pref_helper.dart';
 // di
 export './di/dependency_injection.dart';
 // enums
@@ -19,8 +19,8 @@ export './themes/app_sizes.dart';
 export './themes/app_strings.dart';
 export './themes/app_text_styling.dart';
 export './themes/app_theme.dart';
-export './themes/dark_theme.dart';
-export './themes/light_theme.dart';
+export 'themes/dark/dark_theme.dart';
+export 'themes/light/light_theme.dart';
 // utils
 export './utils/date_formatter.dart';
 export './utils/extensions.dart';
